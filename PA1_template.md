@@ -81,6 +81,8 @@ ggplot(processed.data,
    ylab('Frequency') 
 ```
 
+![Plot 1]('figures/plot1.png')
+
 3. Mean and median number of steps taken each day
 -------------------------------------------------
 
@@ -105,6 +107,8 @@ ggplot(
    ) + geom_line() +
    xlab('Time Interval') + ylab('Average Number of Steps')
 ```
+
+![Plot 2]('figures/plot2.png')
 
 5. The 5-minute interval that, on average, contains the maximum number of steps
 -------------------------------------------------------------------------------
@@ -157,6 +161,8 @@ ggplot(processed.data,
    xlab('Total Number of Steps') +
    ylab('Frequency') 
 ```
+
+![Plot 3]('figures/plot3.png')
 
 Do these values differ from the estimates from the first part of the assignment? 
 What is the impact of imputing missing data on the estimates of the total daily number of steps?
@@ -222,6 +228,8 @@ ggplot(transformed.data, aes(x=interval, y=steps)) +
    xlab('Time Interval') + ylab('Average Number of Steps') +  
    facet_grid(weekend.checker ~ .)
 ```
+
+![Plot 4]('figures/plot4.png')
 
 9. All of the R code needed to reproduce the results (numbers, plots, etc.) in the report
 ------------------------------------------------------------------------------------------
